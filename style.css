@@ -1,33 +1,8 @@
-stars {
+video {
   position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
+  top: 0;
+  left: 0;
+  min-width: 100%;
   min-height: 100%;
-}
-
-#stars {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-}
-
-.stars {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-}
-
-
-
-body {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
+  z-index: -1;
 }
