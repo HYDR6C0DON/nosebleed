@@ -1,6 +1,6 @@
 #stars {
   position: fixed;
-  rotate: 180;
+  transform: rotate(180deg);
   top: 0;
   left: 0;
   min-width: 100%;
