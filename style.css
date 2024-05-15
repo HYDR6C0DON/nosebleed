@@ -20,4 +20,6 @@
 #table {
   text-align: center;
   color: maroon;
+  border-color: maroon;
+  border-style: double;
 }
