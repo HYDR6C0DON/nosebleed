@@ -21,6 +21,7 @@
   text-align: center;
   color: maroon;
   border-color: darkgray;
+  border-spacing: 5px;
   border-style: double;
   letter-spacing: 1px;
 }
