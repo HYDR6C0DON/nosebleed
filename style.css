@@ -1,4 +1,4 @@
-video {
+#stars {
   position: fixed;
   top: 0;
   left: 0;
@@ -7,7 +7,7 @@ video {
   z-index: -1;
 }
 
-gif {
+#snow {
   position: fixed;
   top: 0;
   left: 0;
