@@ -1,38 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="nosebleed.christmas">
     <meta property="og:description" content="brendan's mind">
     <meta property="og:image" content="https://nosebleed.christmas/image/nosebleeder.jpg">
     <meta property="og:url" content="https://nosebleed.christmas">
     <meta name="theme-color" content="#800000">
+    <title>nosebleed.christmas</title>
+    <link rel="stylesheet" href="test.css">
 </head>
 
-<html> 
-<body style="background-color:black; color:maroon">
-<link rel="stylesheet" href="style.css">
+<body>
+    <video autoplay muted loop playsinline class="background-video">
+        <source src="video/snow.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
 
-<h1 style="color: maroon">nosebleed.christmas</h1>
+    <div class="container">
+        <header>
+            <h1>nosebleed.christmas</h1>
+        </header>
 
-<video autoplay muted loop src="video/snow.mp4" id="stars"></video>
-<!--<video autoplay muted loop src="video/stars.mp4" id="stars"></video>-->
+        <main class="columns">
+            <div class="column narrow">
+                <div class="header-row">navigation</div>
+                <div class="row">*<a href="./">home</a>*</div>
+                <div class="row"><a href="./music">music</a></div>
+                <div class="row"><a href="./music">drawing</a></div>
+                <div class="row"><a href="./music">photos</a></div>
+                <div class="row"><a href="./music">tech</a></div>
+                <div class="header-row">external links</div>
+                <div class="row"><a href="https://www.instagram.com/antarctica_resident/">instagram</a></div>
+                <div class="row"><a href="https://www.youtube.com/@nightcoreyourelyfe4636/videos">youtube</a></div>
+                <div class="row"><a href="https://steamcommunity.com/id/uboa/">steam</a></div>
+                <div class="row"><a href="https://www.last.fm/user/brendqn">last.fm</a></div>
+                <div class="row"><a href="https://bandcamp.com/brendqn">bandcamp</a></div>
+                <div class="row"><a href="https://soundcloud.com/br333ndan">soundcloud</a></div>
+                <div class="row"><a href="https://letterboxd.com/br333ndan/">letterboxd</a></div>
+                <div class="header-row" style="margin-bottom: 5px;">friends</div>
+                <img class="blinky" src="gif/yumenikki.gif" width="88" height="31">
+                <img class="blinky" src="gif/MikuApproved.gif" width="88" height="31">
+                <img class="blinky" src="gif/apple.gif" width="88" height="31">
+                <img class="blinky" src="gif/lain.gif" width="88" height="31">
+                <img class="blinky" src="gif/webmaster.gif" width="88" height="31">
+                <img class="blinky" src="gif/joes.gif" width="88" height="31">
+            </div>
 
-<table border="1" id="table">
-<tr>
-    <td>*<a href="./">home</a>*</td>
-    <td><a href="./music">music</a></td>
-    <td style="width:100px;height:20px;">
-         <audio controls loop autoplay id="audioA" style="height:50%;width:50%;">
-            <source src="music/snowworld.mp3" type="audio/mpeg">
-        </audio> 
-    </td>
-</tr>
-</table>
+            <div class="column wide">
+                <div class="header-row">welcome to nosebleed.christmas!</div>
 
-<br>hello welcome to my website
-<br>I was climbing up the apple tree.
+                <div class="row" style="display: flex;">
+                    <img src="image/nosebleeder.jpg" height="150" width="150" alt="nosebleeder" style="margin: 10px; border: solid;">
+                        <div style="text-align: left; margin-left: 10px;">
+                            name: brendan
+                        </br>age: 21
+                        </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+                        </div>
+                </div>
+                <div class="header-row">changelog</div>
+                <div style="text-align: left; margin-left: 15px; margin-right: 10px">
+                    <div style="margin-top: 10px"> 
+                        <span style="color:#551A8B">[12/30/2024]:</span> hello, welcome to the new and improved version of nosebleed.christmas. 
+                        the website has been quite bare since its creation, but today marks the first of hopefully many updates. new home page!
+                    </div>
+                    <div style="margin-top: 10px">
+                        <span style="color:#551A8B">[05/12/2024]:</span> birth
+                    </div>
+                </div>
+                
+            </div>
+            
 
-
-
-<br><img src="image/nosebleeder.jpg" height="250" width="250">
-
+            <div class="column narrow">
+                <div class="header-row">soundtrack</div>
+                <div class="row">
+                    kikiyama - the snowy world
+                    <audio controls loop autoplay class="audio-player" style="margin-top: 5px">
+                        <source src="music/snowworld.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="header-row">me asf</div>
+                <img src="image/angel.png" alt="angel" style="transform: translateX(-100px) translateY(-100px) scale(.6, .65);">
+            </div>
+        </main>
+    </div>
 </body>
 </html>
